@@ -130,7 +130,7 @@ int main(){
     print(first);
     
     cout<<"insert After (5)\n";
-    inserafter(5 , first->next);
+    inserafter(5 , first->next->next);
     print(first);
     
     cout <<"Delete First\n";
