@@ -142,7 +142,7 @@ int main(){
     print(first);
     
     cout<<"Delete After\n";
-    deleteafter(first);
+    deleteafter(first->next);
     print(first);
     
     int cari;
